@@ -117,7 +117,8 @@ export default class App extends Component {
     calculateResult() {
         let {equationList} = this.state;
         const res = eval(equationList.join(''));
-        if (res === Infinity ||  isNaN(res)) {
+        const divisionByZero = (res === Infinity || res === -Infinity ||  isNaN(res));
+        if (divisionByZero) {
             return 'Деление на ноль невозможно';
         }
         return res;
