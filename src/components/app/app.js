@@ -125,6 +125,7 @@ export default class App extends Component {
     }
 
     resetEquation () {
+        this.resultIsCalculated = false;
         this.setState(() => {
             return {
                 equationList: ['0']
