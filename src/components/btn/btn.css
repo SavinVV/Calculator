@@ -1,0 +1,35 @@
+button {
+    width: 75px;
+    height: 75px;
+    background-color: #fff;
+    border: 0;
+    border-radius: 10px;
+    font-size: 36px;
+    line-height: 53px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.blue {
+    color: #728AB7;
+}
+
+.silver {
+    color: #898989;
+}
+
+.purple {
+    color: #745FF2;
+}
+
+.green {
+    background-color: #2dd3c5;
+    color: #fff;
+}
+
+.big {
+    width: 42%;
+    color: #728AB7;
+}
